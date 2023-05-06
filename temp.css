@@ -1,0 +1,59 @@
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color: rgb(180, 224, 19);
+}
+.Saurav{
+    width: 500px;
+    background-color: #f18e8e;
+    padding: 70px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 0 25px 30px rgba(0,0,0,0.25);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.vacant{
+    width: 45%;
+}
+.kelvi{
+    margin: auto;
+    width: 45%;
+    padding: 0;
+}
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #eae3e3;
+    outline: none;
+    margin-top: 8px;
+    padding: 0 10px;
+}
+input:focus{
+    border-color: #3164ff;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10%;
+}
+
+body:hover{
+    background-color: aqua;
+}
+h1:hover{
+    color: rgb(123, 5, 5);
+    text-shadow: 2px 3px 5px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
